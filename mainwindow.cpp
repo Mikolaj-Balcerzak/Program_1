@@ -43,6 +43,7 @@ void MainWindow::on_pushButton_clicked()
             if (delta==0)
             {
                 ui->textBox1->setText(QString::number((-1*b)/(2*a)));
+                ui->textBox1_2->setText(QString::number((-1*b)/(2*a)));
             }
             else if (delta>0)
             {
@@ -51,7 +52,8 @@ void MainWindow::on_pushButton_clicked()
             }
             if (delta<0)
             {
-                ui->textBox1->setText(QString::number((-1*b)/(2*a)));
+                ui->textBox1->setText("zespolone");
+                ui->textBox1_2->setText("zespolone");
             }
 
         }
